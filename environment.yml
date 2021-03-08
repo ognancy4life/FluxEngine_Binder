@@ -1,0 +1,14 @@
+name: environment_OBD_Lab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - cartopy
+  - seaborn
+  - seawater
+  - requests
+  - pip
+  - xarray
+  - intake
+  - pip:
+    - fluxengine
